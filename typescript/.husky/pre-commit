@@ -1,0 +1,2 @@
+#!/bin/sh
+cd typescript && npm run build && npm run prettier:format && npm run lint:fix && npx jscpd src
