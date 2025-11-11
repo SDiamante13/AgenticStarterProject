@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { shake } from './magic8ball';
+import { shake } from './magic8ball.js';
 
 const main = (): void => {
   const args = process.argv.slice(2);
