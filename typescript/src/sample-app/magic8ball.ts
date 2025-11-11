@@ -1,4 +1,4 @@
-import { RESPONSES } from './responses';
+import { RESPONSES } from './responses.js';
 
 export const shake = (question: string): string => {
   if (!question.trim()) {
